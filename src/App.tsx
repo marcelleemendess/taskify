@@ -29,7 +29,6 @@ const App:React.FC = () => {
         handleAdd={handleAdd}
       /> 
       <TodoList
-        todo={todo}
         todos={todos}
         setTodos={setTodos}
       />

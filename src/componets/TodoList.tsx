@@ -4,13 +4,12 @@ import SingleTodo from './SingleTodo';
 import './TodoList.css';
 
 interface Props {
-    todo: Todo;
-    todos: Todo[];
-    setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
+  todos: Todo[];
+  setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 
 }
 
-const TodoList: React.FC<Props> = ({ todo, todos, setTodos}) => {
+const TodoList: React.FC<Props> = ({  todos, setTodos}) => {
   return (
     <div className="todos">
         {
