@@ -8,11 +8,15 @@
   background-image: url(https://www.photos-public-domain.com/wp-content/uploads/2012/01/crumpled-yellow-paper-texture.jpg);
 }
 
-.todos__sigle--text {
+.todos__single--text {
   flex: 1;
   padding: 5px;
   border: none;
   font-size: 20px;
+}
+
+.todos__single--text:focus {
+  outline: none;
 }
 
 .icons {
